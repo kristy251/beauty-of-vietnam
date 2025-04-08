@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty of Vietnam</title>
+    <link rel="stylesheet" href="css/aodai.css">
+</head>
+     </head>
+    <body>
+    
+        <div class="header">
+            <h1></h1>
+            <p>LIFE OF VIETNAM</p>
+        </div>
+
+
+    
+      <!-- Tab links buttons-->
+          <button class="tablink" onclick="openCity('Ao Dai', this, 'red')" id="defaultOpen">Ao Dai</button>
+          <button class="tablink" onclick="openCity('1910s', this, 'green')">1910</button>
+          <button class="tablink" onclick="openCity('20-40', this, 'blue')">20-40</button>
+          <button class="tablink" onclick="openCity('50-70', this, 'orange')">50-70</button>
+          <button class="tablink" onclick="openCity('90-2000', this, 'orange')">90-2000</button>
+          
+          <nav class="homenav">
+            <a href= "home.html">Home</a>
+          </nav>
+    
+          <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+    function openHome() {
+        window.location.href = "home.html"
+    }
+    </script>
+    
+    
+    <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+    </script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center; color: white;font-family: fantasy;">Vietnamese Trademarks</h2>
+
+<!-- Slide Shows 1 -->
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="images/aodai_p1.jpeg" style="width:100%">
+    <h1>What is an Ao Dai</h1> 
+    <p>Ao Dai is a Vietnamese traditional dress, that was worn by both men and women throughout generations. Ao Dai can be worn during the Lunar New Years, weddings, and school. Can be worn as a casual everyday outfit.  Til this day Vietnam would still include the Ao Dai as an everyday outfit. This also includes in school, a white Ao Dai is worn in school for girls as school uniforms. Ao Dai comes in many colors. An Ao Dai comes with two pieces  
+    </p> 
+</div>
+
+  <div class="mySlides1">
+    <img src="images/aodai_p4.jpg" style="width:100%">
+    <h1>What is an Ao Dai</h1> 
+    <p>Ao Dai is a Vietnamese traditional dress, that was worn by both men and women throughout generations. Ao Dai can be worn during the Lunar New Years, weddings, and school. Can be worn as a casual everyday outfit.  Til this day Vietnam would still include the Ao Dai as an everyday outfit. This also includes in school, a white Ao Dai is worn in school for girls as school uniforms. Ao Dai comes in many colors. An Ao Dai comes with two pieces  
+    </p> 
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/aodai_p6.png" style="width: 100%">
+    <h1>What is an Ao Dai</h1> 
+    <p>Ao Dai is a Vietnamese traditional dress, that was worn by both men and women throughout generations. Ao Dai can be worn during the Lunar New Years, weddings, and school. Can be worn as a casual everyday outfit.  Til this day Vietnam would still include the Ao Dai as an everyday outfit. This also includes in school, a white Ao Dai is worn in school for girls as school uniforms. Ao Dai comes in many colors. An Ao Dai comes with two pieces  
+    </p> 
+    
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<!-- Slide Show 2-->
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="images/Screenshot 2025-04-03 at 5.31.04 PM.png" style="width:100%">
+    <h1> When was it made?</h1>
+    <p>The Ao Dai originated in the 18th century, during the Nguyen dynasty. Throughout it times, it evolved to a áo ngũ thân, a five-piece dress, that was inspired by the Chinese and Cham dress. From there it starts to evolve to a long tunic dress with the slits on the side that is paired with trouser that you wear underneath. </p> 
+  </div>
+ 
+  <div class="mySlides2">
+    <img src="images/aodai_13-16.png" style="width:100%">
+    <h1> When was it made?</h1>
+    <p>The Ao Dai originated in the 18th century, during the Nguyen dynasty.Throughout it times, it evolved to a áo ngũ thân, a five-piece dress, that was inspired by the Chinese and Cham dress. From there it starts to evolve to a long tunic dress with the slits on the side that is paired with trouser that you wear underneath. </p> 
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/aodai_16-17.png" style="width:100%">
+    <h1> When was it made?</h1>
+    <p>The Ao Dai originated in the 18th century, during the Nguyen dynasty.Throughout it times, it evolved to a áo ngũ thân, a five-piece dress, that was inspired by the Chinese and Cham dress. From there it starts to evolve to a long tunic dress with the slits on the side that is paired with trouser that you wear underneath. </p> 
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html> 
+
+
+
+    
+    
+    </body>
+    </html>
+    
+
+          
+          
+        
+    
+    
+    

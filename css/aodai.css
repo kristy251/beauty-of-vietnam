@@ -1,0 +1,145 @@
+*{
+    background-color: rgb(255, 0, 0);
+    scroll-behavior: smooth;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.header {
+    padding: 0.1px;
+    text-align: center;
+    background: #ffe100;
+    color: rgb(243, 208, 9);
+    font-size: 20px;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #f40000;
+    color: rgb(255, 200, 0);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 14px;
+    width: 18%;
+  }
+  
+  .homenav{
+    text-decoration: none;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Set default styles for tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Style each tab content individually */
+  #Ao Dai {background-color:red;}
+  
+  #Tokyo {background-color:blue;}
+  #Oslo {background-color:orange;}
+  
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #fed904;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+img{
+
+    width: 100%;
+    height: auto; 
+}
+/* Headers being changed */
+
+.btn{
+    background-color: #ef0404;
+    border: none;
+    color: rgb(255, 225, 2);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+}
+
+/* SlideShow */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a grey background color */
+  .prev:hover, .next:hover {
+    background-color: yellow;
+    color: rgb(255, 0, 0);
+  }
+/* Slide show Header and Paragraphs*/
+
+.mySlides1{
+    font-size: 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mySlides2{
+    font-size: 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
